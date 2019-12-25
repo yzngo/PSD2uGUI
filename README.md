@@ -1,4 +1,4 @@
-# Forked from: https://github.com/zs9024/quick_psd2ugui
+### Forked from: https://github.com/zs9024/quick_psd2ugui
 
 # 解析psd文件，一键生成ugui面板工具
 支持文本，图片，按钮，滑动条，网格布局等组件的导出和生成<br> 
