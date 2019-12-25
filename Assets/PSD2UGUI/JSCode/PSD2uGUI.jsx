@@ -90,7 +90,7 @@ function main(){
     duppedPsd.close(SaveOptions.DONOTSAVECHANGES);
 
     // create export
-    var sceneFile = new File(destinationFolder + "/" + destinationFolder.name + ".xml");
+    var sceneFile = new File(destinationFolder + "/" + sourcePsdName.substring(0,sourcePsdName.indexOf(".")) + ".xml");
     sceneFile.encoding = "utf-8";   //写文件时指定编码，不然中文会出现乱码
     sceneFile.open('w');
     sceneFile.writeln(sceneData);

@@ -8,7 +8,7 @@ public class PSD2UGUIConfig : ScriptableObject
     public string m_commonAtlasPath = PSDImporterConst.Globle_BASE_FOLDER;
 
     [Space(10)]
-    [Header("图集名")]
+    [Header("通用图集名")]
     public string m_commonAtlasName = PSDImporterConst.Globle_FOLDER_NAME;
 
     [Header("字体资源路径")]
